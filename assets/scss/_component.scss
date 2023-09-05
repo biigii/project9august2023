@@ -103,3 +103,34 @@ section.position-absolute {
     color: #fff;
   }
 }
+
+.page-2 {
+  height: 400px;
+  width: 400px;
+  border: 5px solid;
+  margin: 50px;
+}
+
+.thing {
+  text-align: center;
+  line-height: 100px;
+  font-size: 4em;
+  text-transform: uppercase;
+  width: 100px;
+  height: 100px;
+  background-color: #10b2cf;
+  // transform: translate(100px, 100px);
+  // translate: 100px 200px;
+  // transform: scale(2);
+  // scale: 2;
+  // width: 200px;
+  // height: 200px;
+  // transform: rotate(45deg);
+  // rotate: 45deg;
+  // transform: skew(20deg, 40deg);
+  translate: 50% 50%;
+}
+
+.thing:hover {
+  scale: 1.01
+}
