@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link
+    rel="stylesheet"
+    href="./assets/css/styles.min.css"
+  >
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Uniquely positioning elements</h1>
+  <main class="container">
+
+    <section class="position-absolute">
+      <h2>position absolute</h2>
+      <div class="box box-1-zindex">1</div>
+      <div class="box box-absolute">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+    </section>
+
+    <!-- section.position-sticky>h2{position sticky} -->
+    <section class="position-sticky">
+      <h2>position sticky</h2>
+    </section>
+
+    <!-- section.position-relative>h2{position relative}+.box*4{$} -->
+    <section class="position-relative">
+      <h2>position relative</h2>
+      <div class="box box-3-zindex">1</div>
+      <div class="box">2</div>
+      <div class="box box-relative">3</div>
+      <div class="box">4</div>
+    </section>
+
+    <section class="position-static">
+      <h2>position static</h2>
+      <div class="box">1</div>
+      <div class="box box-static">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+    </section>
+
+    <div class="box box-position-fixed">
+      <h2>position fixed</h2>
+    </div>
+
+  </main>
+</body>
+
+</html>
