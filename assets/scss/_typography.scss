@@ -1,12 +1,31 @@
-h1 {
-  color: #f33;
-  // text-align: ;
-  // text-transform: ;
-  text: {
-    align: center;
-    transform: uppercase;
-  }
+// @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+  font-family: "roboto regular";
+  src: url("../fonts/RobotoMono-Regular.ttf");
 }
+
+@font-face {
+  font-family: "roboto thin";
+  src: url("../fonts/RobotoMono-Thin.ttf");
+}
+
+@font-face {
+  font-family: "my font";
+  src: url("../fonts/EduTASBeginner-Regular.ttf");
+}
+// h1 {
+//   color: #f33;
+//   // text-align: ;
+//   // text-transform: ;
+//   text: {
+//     align: center;
+//     transform: uppercase;
+//   }
+// }
 
 h2 {
   text: {
@@ -46,4 +65,48 @@ h3::before {
   left: 0;
   border-top-left-radius: 10px ;
   border-top-right-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page3-header {
+  color: #f22;
+  font-size: 5em;
+  text-align: center;
+  // text-align: right;
+  // font-family:  'roboto regular';
+  // font-family: "roboto thin";
+  // font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  // text-decoration: line-through;
+  text-shadow: 6px 7px 5px #000;
+  // box shadow applies to other elements
+  // box-shadow: 6px 7px 5px #000;
+  text-transform: capitalize;
+}
+
+p.content {
+  text-align: justify;
+  // font-family: 'my font';
+  // font-family: 'Open Sans', sans-serif;
+  // font-size: 2em;
+  // font-style: italic;
+  // font-variant: small-caps;
+  // font-weight: 900;
+  // line-height: 1.5;
+  // font: italic small-caps 700 2em/1.5 sans-serif;
+  // font: 100 2em 'Poppins';
+  // letter-spacing: 5px;
+  // word-spacing: 30px;
+  text-indent: 100px;
+  font: {
+    weight: 700;
+    size: 2em;
+    family: 'Poppins';
+    variant: small-caps;
+    style: italic
+  }
 }
